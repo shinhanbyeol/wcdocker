@@ -1,4 +1,5 @@
-(function () {/**
+(function () {
+/**
  * @license almond 0.3.2 Copyright jQuery Foundation and other contributors.
  * Released under MIT license, http://github.com/requirejs/almond/LICENSE
  */
@@ -26613,12 +26614,16 @@ define('wcDocker/docker',[
                 $btnIcon.addClass('fa-compress-alt');
                 frame._isMaximize = true;
                 frame.$frame.addClass('wcMaximize');
+                frame.$maximise.attr('title', 'Minimize active panel tab');
+                frame.$maximise.attr('aria-label', 'Minimize Panel');                
             }
             else {
                 $btnIcon.removeClass('fa-compress-alt');
                 $btnIcon.addClass('fa-expand-alt');
                 frame._isMaximize = false;
                 frame.$frame.removeClass('wcMaximize');
+                frame.$maximise.attr('title', 'Maximize active panel tab');
+                frame.$maximise.attr('aria-label', 'Maximize Panel');                
             }
             frame.__updateTabs();
             frame.__update();

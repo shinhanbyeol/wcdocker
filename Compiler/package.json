@@ -1,7 +1,7 @@
 {
   "name": "wcDocker",
   "author": "Web Cabin",
-  "version": "3.0.0-pre",
+  "version": "3.0.1-pre",
   "description": "Web Cabin Docker is a docking panel layout interface written in JavaScript under the MIT License.",
   "main": "compiler.js",
   "scripts": {
@@ -34,10 +34,8 @@
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-jsdoc": "~2.4.0",
     "grunt-shell": "1.1.2",
-    "ink-docstrap": "git+https://github.com/Lochemage/docstrap.git#deploy",
     "intern": "~3.0.3",
     "intern-geezer": "latest",
-    "jsdoc": "^3.5.5",
-    "jsdoc-amddcl": "git://github.com/ibm-js/jsdoc-amddcl#master"
+    "jsdoc": "^3.5.5"
   }
 }
